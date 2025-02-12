@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Survey Form</title>
-</head>
-<body>
-    <h1>Survey Form</h1>
-    <form action="#" method="post">
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form action="#" method="post">
 
-        <!--User Information-->
-        <label for="name">Full Name:</label>
-        <input type="text" name="name" id="name" required><br><br>
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required><br><br>
-    </form>
-    <fieldset>
-        <legend>How satisfied are you with our service?</legend>
-        <label><input type="radio" name="Satisfaction" id="Very Satisfied">Very Satisfied</label><br>
-        <label><input type="radio" name="Satisfaction" id="Satisfied">Satisfied</label><br>
-        <label><input type="radio" name="Satisfaction" id="Neutral">Neutral</label><br>
-        <label><input type="radio" name="Satisfaction" id="Dissatisfied">Dissatisfied</label><br>
-        <label><input type="radio" name="Satisfaction" id="Very Dissatisfied">Very Dissatisfied</label><br>
-    </fieldset><br>
-    <fieldset>
-        <legend>What features do you value most?</legend>
-        <label><input type="checkbox" name="Eas of Use" id="Eas of Use">Eas of Use</label><br>
-        <label><input type="checkbox" name="Design" id="Design">Design</label><br>
-        <label><input type="checkbox" name="Customer Support" id="Customer Support">Customer Support</label>
-    </fieldset><br>
-    <label for="user_role">What best describes you?</label>
-    <select name="use_role" id="user_role">
-        <option value="Student">Student</option>
-        <option value="Professional">Professional</option>
-        <option value="Hobbyist">Hobbyist</option>
-        <option value="Other">Other</option>
-    </select><br><br><br>
-    <label for="message">Additional Feedback:</label><br>
-    <textarea name="message" id="message"></textarea><br><br>
-    <input type="submit" value="submit">
-
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <fieldset>
+                <legend>How satisfied are you with our service?</legend>
+                <label><input type="radio" name="Satisfaction" id="Very_Satisfied">Very Satisfied</label><br>
+                <label><input type="radio" name="Satisfaction" id="Satisfied">Satisfied</label><br>
+                <label><input type="radio" name="Satisfaction" id="Neutral">Neutral</label><br>
+                <label><input type="radio" name="Satisfaction" id="Dissatisfied">Dissatisfied</label><br>
+                <label><input type="radio" name="Satisfaction" id="Very_Dissatisfied">Very Dissatisfied</label><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>What features do you value most?</legend>
+                <label><input type="checkbox" name="Eas of Use" id="Eas_of_Use">Eas of Use</label><br>
+                <label><input type="checkbox" name="Design" id="Design">Design</label><br>
+                <label><input type="checkbox" name="Customer Support" id="Customer_Support">Customer Support</label>
+            </fieldset><br>
+            <label for="user_role">What best describes you?</label>
+            <select name="use_role" id="user_role">
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Hobbyist">Hobbyist</option>
+                <option value="Other">Other</option>
+            </select><br><br><br>
+            <label for="message">Additional Feedback:</label><br>
+            <textarea name="message" id="message"></textarea><br><br>
+            <input type="submit" value="submit">
+        </form>
 </body>
 </html>

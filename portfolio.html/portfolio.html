@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <h1>Welcome To My Portfolio!</h1>
+    <nav>
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>About Me</h2>
+    <p>I am a passionate web developer, constantly exploring new technologies to build dynamic and user-friendly websites. Alongside my love for coding, I am also a music producer and songwriter, blending creativity with technology to craft unique soundscapes.</p>
+    <img src="Images/myphoto.JPG" alt="a placeholder image for my portfolio">
+    <h2>My Projects</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Website Portfolio</td>
+                <td>A website that is about me and my works</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Pahuway</td>
+                <td>A song that I wrote and produced.</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Sumobot & Pathfinding Robot</td>
+                <td>Autonomous navigation and obstacle avoidance.</td>
+                <td>2024</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name">
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <fieldset>  
+            <legend>How did you hear about this portfolio?</legend>
+            <p><label><input type="radio" name="sources" id="Friend">Friend</label></p>
+            <p><label><input type="radio" name="sources" id="Social_Media">Social Media</label></p>
+            <p><label><input type="radio" name="sources" id="Search_Engine">Search Engine</label></p>
+            <p><label><input type="radio" name="sources" id="Other">Other</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Skills/Interests</legend>
+            <p><label><input type="checkbox" name="skills" id="Web_Development">Web Development</label></p>
+            <p><label><input type="checkbox" name="skills" id="Songwriting">Songwiriting</label></p>
+            <p><label><input type="checkbox" name="skills" id="Mixing_and_Mastering">Mixing and Mastering</label></p>
+        </fieldset>
+        <p>
+            <label for="messages">Comments or Messages:</label>
+            <p><textarea name="messages" id="messages"></textarea></p>
+            <input type="submit" name="submit" value="submit">
+        </p>
+    </form>
+    <footer>
+        <p>&copy; Lalaine Leoligao 2025</p>
+    </footer>
+        
+</body>
+</html>
