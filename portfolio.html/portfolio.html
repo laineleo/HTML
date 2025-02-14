@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,15 +21,16 @@
     </header>
     <main>
         <div class="about-projects">
-            <h2 class="about_me">About Me</h2>
             <section id="about_me_section">
-                <p>I am a passionate web developer, constantly exploring new technologies to build dynamic and
+                <h2 class="about_me">About Me</h2>
+                <p class="paragraph">I am a passionate web developer, constantly exploring new technologies to build
+                    dynamic and
                     user-friendly websites. Alongside my love for coding, I am also a music producer and songwriter,
                     blending creativity with technology to craft unique soundscapes.</p>
                 <img src="Images/myphoto.JPG" alt="a placeholder image for my portfolio">
             </section>
             <section id="myprojects_section">
-                <h2 class="My_Projects">My Projects</h2>
+                <h2 class="my_projects">My Projects</h2>
                 <table>
                     <thead>
                         <tr>
@@ -84,8 +86,10 @@
                     <label for="mix_master"><input type="checkbox" name="misx_master" id="mix_master">Mixing and
                         Mastering</label>
                 </fieldset>
-                <label for="comments">Comments or Messages:</label>
-                <textarea name="comments" id="comments"></textarea>
+                <div id="comment_section">
+                    <label for="comments">Comments or Messages:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
                 <div id="submit_button">
                     <button type="submit">Submit</button>
                 </div>
