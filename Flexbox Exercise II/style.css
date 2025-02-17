@@ -38,6 +38,8 @@ header {
     flex-direction: column;
     gap: 20px;
     color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .top-bar,
