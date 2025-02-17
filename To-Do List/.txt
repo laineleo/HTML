@@ -1,0 +1,5 @@
+I faced difficulties in aligning elements properly and ensuring 
+responsiveness, but I solved them using CSS flexbox and margin 
+adjustments. The assignment took me approximately almost 3 hours to 
+complete, and I learned better ways to structure and style elements 
+efficiently.
