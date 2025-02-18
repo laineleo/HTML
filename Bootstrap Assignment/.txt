@@ -1,0 +1,5 @@
+The biggest struggle was adjusting the layout for 
+different screen sizes, but by testing thoroughly, 
+I was able to achieve a consistent, adaptable design.
+The assignment took me approximately almost 4 hours to 
+complete.

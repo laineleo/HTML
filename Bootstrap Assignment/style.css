@@ -1,0 +1,173 @@
+ body {
+     background-color: rgb(54, 54, 54);
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container {
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .top {
+     background-color: rgb(88, 30, 224);
+     height: 50px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 0 50px;
+ }
+
+ .top-logo img {
+     width: 55px;
+     padding: 5px;
+ }
+
+ .nav {
+     display: flex;
+     gap: 20px;
+ }
+
+ .nav a {
+     text-decoration: none;
+     color: whitesmoke;
+     padding: 5px;
+ }
+
+ .search-box input {
+     border-radius: 4px;
+     font-size: 15px;
+     border: 1px solid lightgray;
+     padding: 5px;
+     position: relative;
+     right: -250px;
+     background-color: rgba(228, 226, 226, 0.616);
+ }
+
+
+ header {
+     text-align: center;
+     margin-top: 30px;
+     flex-grow: 1;
+ }
+
+ .logo-header img {
+     width: 100px;
+ }
+
+ h1 {
+     line-height: .5;
+     color: rgb(242, 242, 242);
+ }
+
+ p {
+     line-height: 10px;
+     color: rgb(169, 167, 167);
+ }
+
+ main {
+     text-align: center;
+     flex-grow: 10;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     height: 100vh;
+     margin-top: 5px;
+ }
+
+ .copytoclipboard-button-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+ }
+
+ .copytoclipboard-button-container p {
+     background-color: gray;
+     padding: 15px;
+     color: white;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     margin: 0;
+     font-size: 12px;
+ }
+
+ button {
+     background-color: rgb(88, 30, 224);
+     border: none;
+     border-radius: 5px;
+     padding: 12.5px;
+     color: white;
+     cursor: pointer;
+ }
+
+ .versions {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+ }
+
+ ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     text-decoration: gray;
+ }
+
+ ul li a {
+     color: rgb(74, 74, 74);
+ }
+
+ .get-started {
+     text-align: center;
+     flex-grow: 10;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     height: 100vh;
+     margin-top: 5px;
+ }
+
+ h2 {
+     background-color: rgba(123, 93, 194, 0.176);
+     color: rgb(72, 23, 185);
+     padding: 10px;
+     border-radius: 10px;
+ }
+
+ h3 {
+     font-size: 25px;
+     color: white;
+ }
+
+ .get-started p {
+     line-height: 1.5;
+     margin: 0;
+ }
+
+ .installation-steps {
+     text-align: center;
+     flex-grow: 10;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     height: 100vh;
+     margin-top: 5px;
+ }
+
+ .installation-steps a {
+     color: rgb(0, 149, 255);
+ }
