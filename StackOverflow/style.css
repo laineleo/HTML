@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*outline: 1px solid black;*/
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+}
+
+/*Header*/
+header {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    border-top: 2.5px solid #E7700D;
+    border-bottom: 1px solid #D6D9DC;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 30px;
+    margin-right: 16px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-bar {
+    width: 785px;
+    height: 32px;
+    padding: 9px 0 9px 30px;
+    border-radius: 5px;
+    border: 1px solid #DBDDE1;
+}
+
+.auth-buttons a {
+    border: 1px solid #1B75D0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    text-decoration: none;
+}
+
+.btn-login {
+    background-color: transparent;
+    color: #1B75D0;
+}
+
+.btn-signup {
+    background-color: #1B75D0;
+    color: white;
+}
+
+/*side bar*/
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+aside {
+    margin-left: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+aside ul li img {
+    margin-right: 13px;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+/*container*/
+.containers {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.main-container {
+    height: 32%;
+    background-color: #F9FAFA;
+    width: 85%;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.highlight-container {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 50%;
+
+}
+
+.main-picture {
+    width: 45%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.main-container h1 {
+    font-size: 37px;
+    line-height: 30px;
+}
+
+.main-container p {
+    margin-top: 15px;
+}
+
+.bgdev-img {
+    width: 30%;
+    position: absolute;
+    top: 0;
+}
+
+.highlight {
+    background-image: url(stackoverflow/background-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: center;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.signup-vtc {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.signup-vtc a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.blue-btn {
+    border: 1px solid #1B75D0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    text-decoration: none;
+    background-color: #1B75D0;
+    color: white;
+}
+
+.vtc {
+    color: #1B75D0;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+/*stackforteams container*/
+.stack-forteams,
+.ai-section {
+    height: 25%;
+    background: transparent;
+    width: 85%;
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 168, 168, 0.664);
+    margin-top: 20px;
+    padding: 0;
+}
+
+.forteamslogo {
+    width: 20%;
+}
+
+.exploreteams {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.exploreteams p {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.forteamsbrowser {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 20px;
+}
+
+.forteams-btn {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.exploreteams-btn {
+    border: 1px solid #1B75D0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    text-decoration: none;
+    background-color: #1B75D0;
+    color: white;
+    font-size: 15px;
+}
+
+.tryforfree-btn {
+    color: #1B75D0;
+    font-size: 15px;
+}
+
+/*overflowai container*/
+.ai-section {
+    background-color: #2F3337;
+    color: white;
+}
+
+.overflowai {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.ai-logo {
+    width: 20%;
+}
+
+.overflowai p {
+    color: white;
+    width: 50%;
+    position: relative;
+    top: -30px;
+    font-size: 14px;
+}
+
+.homeoverflowai {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 20px;
+}
+
+.supercharge-btn {
+    margin-left: 30px;
+    background-color: #E66F12;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/*advertising-api*/
+.advertising-api {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60vh;
+    position: relative;
+    top: -25px;
+}
+
+.advertising-container {
+    height: 30vh;
+    background: transparent;
+    width: 42%;
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 168, 168, 0.664);
+    padding: 0;
+}
+
+.advertising {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.advertising img {
+    width: 40%;
+}
+
+.advertising p {
+    margin-top: 20px;
+    width: 85%;
+}
+
+.ad-btn {
+    margin-left: 5%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ad-sol-btn {
+    border: 1px solid #1B75D0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    text-decoration: none;
+    background-color: #1B75D0;
+    color: white;
+    font-size: 15px;
+}
+
+.employer-brand {
+    color: #1B75D0;
+}
+
+.api-container {
+    height: 30vh;
+    background: transparent;
+    width: 42%;
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 168, 168, 0.664);
+    padding: 0;
+}
+
+.api {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.api img {
+    width: 40%;
+}
+
+.api p {
+    margin-top: 20px;
+    margin bottom: 20px;
+    width: 85%;
+}
+
+.ap-sol-btn {
+    margin-left: 25px;
+    position: relative;
+    bottom: -30px;
+    border: 1px solid #1B75D0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    text-decoration: none;
+    background-color: #1B75D0;
+    color: white;
+    font-size: 15px;
+    width: 36%;
+}
+
+.workhere {
+    position: relative;
+    top: -2%;
+}
+
+.work-section {
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.work-container {
+    height: 25vh;
+    background: transparent;
+    width: 85%;
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 168, 168, 0.664);
+    padding: 0;
+}
+
+.mission {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.mission img {
+    width: 18%;
+}
+
+.mission p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.careers-btn {
+    margin-left: 2px;
+    position: relative;
+    bottom: -30px;
+    border: 1px solid #1B75D0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    text-decoration: none;
+    background-color: #1B75D0;
+    color: white;
+    font-size: 15px;
+    width: 19%;
+}
+
+.home-careers {
+    width: 55%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
