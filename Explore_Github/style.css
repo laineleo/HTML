@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #959AA2;
+    /*outline: 1px solid white;*/
+}
+
+body {
+    height: 100vh;
+    background-color: #0D1117;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #25292E;
+    width: 100%;
+    height: 50px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo-pricing {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-pricing ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.logo-pricing ul li a {
+    color: white;
+    text-decoration: white;
+    font-size: 15px;
+}
+
+.searchbar-signup {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.searchbar-signup a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #535a61;
+    border-radius: 6px;
+    padding: 0px 5px;
+    width: 350px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 8px 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 8px;
+    width: 14px;
+    height: 14px;
+}
+
+.search-bar2 {
+    position: absolute;
+    right: 8px;
+    width: 14px;
+    height: 14px;
+}
+
+.signup-btn {
+    border: 1px solid white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.main-nav-container {
+    height: 50px;
+    background-color: #0D1117;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.292);
+}
+
+.main-nav-container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-nav-container ul li a {
+    text-decoration: none;
+}
+
+.main-content,
+.collection-section,
+.trending-dev {
+    min-height: 50vh;
+    margin-left: 30%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.main-content h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.toprated-container {
+    border: 1px solid #3C434C;
+    width: 60%;
+    border-radius: 10px;
+    padding: 0 0 40px 0;
+}
+
+.game-offimg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #9298A1;
+}
+
+.logo-gbytes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.toprated-container p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.logo-gbytes,
+.toprated-container h3,
+.toprated-container p {
+    padding: 0 0 0 20px;
+}
+
+.collection-section {
+    border: 1px solid #3C434C;
+    border-radius: 10px;
+    width: 39%;
+    margin-top: 30px;
+    min-height: 50px;
+    padding: 30px 20px;
+}
+
+.logo-collection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pic-gameengines {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.numbersign {
+    background-color: #111D2F;
+    padding: 40px 50px;
+    position: relative;
+    bottom: -10px;
+    right: -35px;
+    border-radius: 10px;
+}
+
+.game-engines h3,
+.game-engines a {
+    color: #4493F8;
+}
+
+.trending-dev {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #3C434C;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.tren-dev,
+.sebastian,
+.eric,
+.bagheera,
+.jack {
+    border-bottom: 1px solid #3C434C;
+    padding: 10px;
+}
+
+.tren-dev {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #151B23;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 15px;
+}
+
+.pic-nicknames {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.prof-pic img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.nicknames {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.seemore {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.seemore a {
+    text-decoration: none;
+    color: #4290F8;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+
+.github p {
+    font-size: 13px;
+}
+
+.github img {
+    width: 1.5%;
+}

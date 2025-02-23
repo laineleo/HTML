@@ -1,0 +1,6 @@
+One struggle I faced was adjusting the height of the 
+.collection-section, as it wasn't expanding properly to 
+fit its content. After testing different CSS properties, 
+I realized that using min-height instead of a fixed height 
+allowed it to adjust dynamically. Through careful debugging 
+and adjustments, I successfully completed the task in 6 hours.
