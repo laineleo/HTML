@@ -6,6 +6,7 @@
     /*outline: 1px solid white;*/
 }
 
+
 body {
     height: 100vh;
     background-color: #0D1117;
@@ -269,4 +270,5 @@ header {
 
 .github img {
     width: 1.5%;
+}
 }

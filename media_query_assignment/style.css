@@ -1,0 +1,151 @@
+*{
+    /*outline: 1px solid white;*/
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #DEDEDE;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+    background-color: #131928 ;
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20px 2px 20px;
+}
+
+.logo img {
+    width: 10%;
+    max-width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.heart {
+    width: 6%;
+    background-color: gray;
+    position: relative;
+    right: -90%;
+    padding: 8px;
+}
+
+.avatar {
+    width: 10%;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;   
+    gap: 20px;
+    position: relative;
+    right: -20%;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.cards ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+
+.cards img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.cards ul li {
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8 ;
+    border-radius: 10px;
+    border: 1.5px solid gray;
+}
+
+
+@media (min-width: 1024px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        width: 100%;
+        margin-right: 70px;
+        position: relative;
+        top: -20px;
+    }
+    .logo img {
+        width: 50px;
+    }
+    .avatar{
+        width: 50px;
+    }
+    .heart{
+        width: 30px;
+        position: relative;
+        left: 5px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .cards ul {
+        display: flex;
+        flex-direction: column;
+        width: 300%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px){
+    nav{
+        margin-right: 50px;
+        margin-left: 20px;
+        position: relative;
+        top: -10px;
+    }
+    nav ul{
+        position: relative;
+        left: 10px;
+    }
+    .heart {
+        width: 30px;
+        position: relative;
+        left: 5px;
+    }
+    .avatar{
+        width: 50px;
+    }
+    .card3{
+        position: relative;
+        bottom: -400px;
+        left: -225px;
+    }
+    .card1, .card2 {
+        position: relative;
+        right: -110px;
+    }
+}
