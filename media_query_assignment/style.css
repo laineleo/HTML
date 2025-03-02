@@ -7,11 +7,13 @@ body{
   background-color: #DEDEDE;
   height: 100%;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 header {
     background-color: #131928 ;
     height: 10vh;
+    max-width: 100%;
 }
 
 nav {
@@ -92,17 +94,23 @@ nav ul li a {
 }
 
 @media (max-width: 480px) {
-    nav {
+    body {
         width: 100%;
+    }
+    header  {
+        max-width: 100%;
+    }
+    nav {
+        width: 20%;
         margin-right: 70px;
         position: relative;
         top: -20px;
     }
     .logo img {
-        width: 50px;
+        width: 30px;
     }
     .avatar{
-        width: 50px;
+        width: 30px;
     }
     .heart{
         width: 30px;
