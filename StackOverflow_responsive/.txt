@@ -1,0 +1,9 @@
+One struggle I faced was aligning elements 
+properly while maintaining responsiveness, 
+but I overcame it by using flexbox and testing different 
+screen sizes. Through trial and error, I learned how 
+important it is to debug carefully and adjust styling for 
+better layout control.
+
+After 3 days of effort and continuous testing, 
+I successfully accomplished the task.
